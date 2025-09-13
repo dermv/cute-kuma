@@ -26,7 +26,7 @@
 ## Features
 
 - Modern design inspired by top monitoring services
-- Support for Uptime Kuma v1 and v2
+- Support for Uptime Kuma v1 and v2 (tested up to 2.0.0-beta.4)
 - Support for light and dark themes
 - Hidden refresh timer for a cleaner look (can be easily restored)
 - Clean, easily customizable and extendable code
