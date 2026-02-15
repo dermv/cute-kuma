@@ -478,14 +478,18 @@ a[href="/manage-status-page"] .svg-inline--fa {
 /* PAST INCIDENTS
 -------------------------------------------------- */
 
-.incident-date-group {
-  margin-bottom: 0 !important;
-}
-
 .past-incidents-title {
   color: var(--color-text-heading) !important;
   font-weight: var(--font-weight-semibold) !important;
   font-size: var(--font-size-350) !important;
+}
+
+.incident-date-group {
+  margin-bottom: 0 !important;
+}
+
+.shadow-box.incident-list-box {
+  box-shadow: none !important;
 }
 
 .incident-date-header {
@@ -494,7 +498,6 @@ a[href="/manage-status-page"] .svg-inline--fa {
 
 [data-testid="incident-group"] {
   margin-bottom: var(--spacing-16) !important;
-  box-shadow: none !important;
   border-radius: var(--border-radius-500) !important;
   padding: var(--spacing-20) !important;
   color: var(--color-text-heading) !important;
@@ -611,4 +614,3 @@ footer {
 }
 
 .tooltip-arrow { display: none !important; }
-
